@@ -1,0 +1,108 @@
+:root,
+[data-theme='light'] {
+  --bg-page: #f3f4f6;
+  --bg-header: #ffffff;
+  --bg-surface: #ffffff;
+  --bg-surface-subtle: #f1f5f9;
+  --bg-control: #f9fafb;
+  --bg-input: #ffffff;
+
+  --border-color: #e5e7eb;
+  --border-control: #d1d5db;
+  --border-focus: #2563eb;
+
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #9ca3af;
+
+  --accent-primary: #2563eb;
+  --cta-bg: #d90404;
+  --cta-bg-hover: #b80303;
+  --cta-text: #ffffff;
+  --link-color: #d90404;
+
+  --badge-in-bg: #dcfce7;
+  --badge-in-text: #15803d;
+  --badge-low-bg: #fef3c7;
+  --badge-low-text: #b45309;
+  --badge-out-bg: #fee2e2;
+  --badge-out-text: #b91c1c;
+
+  --callout-bg: #eff6ff;
+  --callout-border: #bfdbfe;
+  --callout-text: #1d4ed8;
+
+  --card-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme='dark'] {
+  --bg-page: #0b1120;
+  --bg-header: #111827;
+  --bg-surface: #1e293b;
+  --bg-surface-subtle: #0f172a;
+  --bg-control: #1e293b;
+  --bg-input: #0f172a;
+
+  --border-color: #334155;
+  --border-control: #475569;
+  --border-focus: #60a5fa;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  --accent-primary: #60a5fa;
+  --cta-bg: #ef4444;
+  --cta-bg-hover: #dc2626;
+  --cta-text: #ffffff;
+  --link-color: #f87171;
+
+  --badge-in-bg: rgba(22, 163, 74, 0.2);
+  --badge-in-text: #4ade80;
+  --badge-low-bg: rgba(217, 119, 6, 0.22);
+  --badge-low-text: #fbbf24;
+  --badge-out-bg: rgba(220, 38, 38, 0.22);
+  --badge-out-text: #f87171;
+
+  --callout-bg: rgba(37, 99, 235, 0.16);
+  --callout-border: #1d4ed8;
+  --callout-text: #93c5fd;
+
+  --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+[data-theme='corporate'] {
+  --bg-page: #e8eef5;
+  --bg-header: #0f2942;
+  --bg-surface: #ffffff;
+  --bg-surface-subtle: #e2e8f0;
+  --bg-control: #f1f5f9;
+  --bg-input: #ffffff;
+
+  --border-color: #cbd5e1;
+  --border-control: #94a3b8;
+  --border-focus: #1d4ed8;
+
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+
+  --accent-primary: #1d4ed8;
+  --cta-bg: #1e40af;
+  --cta-bg-hover: #1e3a8a;
+  --cta-text: #ffffff;
+  --link-color: #1d4ed8;
+
+  --badge-in-bg: #d1fae5;
+  --badge-in-text: #065f46;
+  --badge-low-bg: #fef3c7;
+  --badge-low-text: #92400e;
+  --badge-out-bg: #fee2e2;
+  --badge-out-text: #991b1b;
+
+  --callout-bg: #e0f2fe;
+  --callout-border: #7dd3fc;
+  --callout-text: #0369a1;
+
+  --card-shadow: 0 2px 6px rgba(15, 41, 66, 0.08);
+}
